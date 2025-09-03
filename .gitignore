@@ -73,3 +73,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Ignore everything in Assets
+Assets/*
+
+# But keep my scripts, prefabs, and scenes
+!Assets/Scripts/
+!Assets/Scenes/
+!Assets/Prefabs/
